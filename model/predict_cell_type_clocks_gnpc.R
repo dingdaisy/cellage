@@ -107,5 +107,5 @@ cell_type_performance_df <- data.frame(
   n_marker = unlist(cell_type_markers_n),
   stringsAsFactors = FALSE
 )
-write.csv(cell_type_performance_df, "./results/Rev_UPDATE_cell_type_performance_gnpc_update_0827.csv", row.names = FALSE)
+write.csv(cell_type_performance_df, "./results/Rev_UPDATE_cell_type_performance_gnpc_update.csv", row.names = FALSE)
 
