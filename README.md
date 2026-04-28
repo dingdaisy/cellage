@@ -1,6 +1,6 @@
 ## Cellular Aging Signatures in the Plasma Proteome Record Human Health and Disease
 
-A computational framework for estimating cell-type-specific biological age using plasma proteomics.
+A computational framework for estimating cell-type-specific biological age using plasma proteomics. Preprint article: https://www.biorxiv.org/content/10.64898/2026.02.10.704909v1
 
 ## Overview
 
