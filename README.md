@@ -1,4 +1,4 @@
-## Cellular Aging Signatures in the Plasma Proteome Record Human Health and Disease
+## Cellular Aging Signatures in the Plasma Proteome Predict Human Health
 
 A computational framework for estimating cell-type-specific biological age using plasma proteomics. Preprint article: https://www.biorxiv.org/content/10.64898/2026.02.10.704909v1
 
