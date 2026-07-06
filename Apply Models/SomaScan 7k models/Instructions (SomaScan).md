@@ -10,16 +10,17 @@ This repository contains the pre-trained models, metadata, performance metrics, 
 *   **`Somalogic_7k_protein_metadata.xlsx`**
     *   **Description:** Contains comprehensive SomaScan metadata for the ~7,000 aptamers, including Gene Symbols, SeqID, and UniProt IDs.
     *   **Usage:** Use the specific **SeqIDs** in this file to map your proteomic features to the model coefficients accurately. 
-*   **`Soma_clock_coefficients_min_.xlsx`**
+*   **`Soma_clock_coefficients_min.xlsx`**
     *   **Description:** Extracted from our Supplementary Tables, this file contains the pre-trained protein weights (coefficients) and intercepts for each of the cell-type-specific aging clocks. Each row corresponds to a specific cell-type model.
 *   **`Soma_cell_type_performance_results_.xlsx`**
     *   **Description:** Summary performance table evaluating the Pearson correlation between predicted and actual chronological ages across our Healthy, Disease, and SADRC validation groups (SADRC is an external GNPC sub-cohort).
     *   **Usage:** The table is sorted in descending order of correlation magnitude within the healthy cohort. The total number of feature inputs for each clock is listed in the `n_proteins` column.
 
-### Visualizations & Reference
+### Scripts & Visualization
 *   **`visualize_soma_clocks.png`**
     *   **Description:** Visual performance plots (Predicted vs. Actual Age) for 10 representative example models evaluated in healthy individuals within the training cohort.
-
+* **`demo_apply_cell_clock.R`**
+    * **Description:** A reference R script demonstrating how to load the pre-trained weights and intercepts and apply them to an external validation cohort.
 ---
 
 ## Training Cohort Context
