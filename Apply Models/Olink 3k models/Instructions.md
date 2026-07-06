@@ -27,7 +27,7 @@ This repository contains the pre-trained models, metadata, performance metrics, 
 ## Key Implementation Notes
 
 ### 1. Model Filtering & Selection
-While `olink_clock_coefficients_min.xlsx` contains weights for ~70 total models, our core study focused strictly on **~40 cell types and lineages of high interest**. To ensure statistical robustness, we generally excluded models that did not meet the following quality thresholds unless there was a strong prior biological justification:
+While `olink_clock_coefficients_min.xlsx` contains weights for ~70 total models, our core study focused strictly on ~40 cell types and lineages of high interest. To ensure statistical robustness, we generally excluded models that did not meet the following quality thresholds unless there was a strong prior biological justification:
 * **Training Correlation:** $r \ge 0.25$
 * **Test Correlation:** $r \ge 0.15$
 * **Feature Size:** Minimum of 4 protein features
