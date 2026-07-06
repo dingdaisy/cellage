@@ -53,4 +53,4 @@ The specific ~40 models retained for our study are explicitly annotated inside t
 ### Methodology References
 For a complete step-by-step walkthrough on downstream analysis and matrix math pipelines, we highly recommend checking out Hamilton Oh's open-source workflows:
 *   **SomaScan Organ Aging Tutorial:** Excellent baseline reference for calculating and handling proteomic age gaps (available at [github.com/hamiltonoh/organage](https://github.com/hamiltonoh/organage)).
-*   **UK Biobank Organ Clock Tutorial:** Ideal for visualizing exactly how a multi-column coefficient/intercept table is programmatically applied to an external expression matrix to extract biological age estimates.
+*   **UK Biobank Organ Clock Tutorial:** Ideal for visualizing exactly how a multi-column coefficient/intercept table is programmatically applied to an external expression matrix to extract biological age estimates (available at [github.com/hamiltonoh/organage](https://github.com/hamiltonoh/organage)).
