@@ -25,7 +25,7 @@ This repository contains the pre-trained models, metadata, performance metrics, 
 
 ## Training Cohort Context
 Our clocks were trained natively on healthy individuals from the **KADRC cohort**. When evaluating performance or applying these models to external data, keep our training demographic baseline in mind:
-*   **Mean Age:** $73.2 \pm 10.8$ years
+*   **Mean Age:** 73.2 to 10.8 years
 *   **Age Range:** 31 to 101 years
 
 ---
