@@ -48,7 +48,7 @@ While the coefficients sheet contains $>60$ total cell-type models, our core ana
 *   **Test Correlation:** $r \ge 0.15$
 *   **Feature Size:** Minimum of 4 protein features (`n_proteins` $\ge 4$)
 
-The specific ~40 models retained for our study are explicitly annotated inside the `Soma_clock_coefficients_min_.xlsx` sheet.
+The specific ~40 models retained for our study are explicitly annotated inside the `Soma_clock_coefficients_min.xlsx` sheet.
 
 ### Methodology References
 For a complete step-by-step walkthrough on downstream analysis and matrix math pipelines, we highly recommend checking out Hamilton Oh's open-source workflows:
