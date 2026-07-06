@@ -34,6 +34,11 @@ While `olink_clock_coefficients_min.xlsx` contains weights for ~70 total models,
 
 The specific models retained for analysis in our study are explicitly annotated inside the `olink_clock_coefficients_min.xlsx` sheet.
 
+### 2. Sex Coefficient Encoding
+Sex is explicitly included as a feature coefficient in these models. You must encode your cohort's sex covariate as a binary integer:
+*   **Female:** `1`
+*   **Male:** `0`
+
 ### 2. Cell-Type vs. Lineage-Type Models
 Due to variable protein coverage of certain specific cell-mapped proteins in the Olink Explore 3072 assay, we introduced broader **lineage models** in the UK Biobank cohort. 
 * Lineage models serve as a composite representation of grouped cell types.
