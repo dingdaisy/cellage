@@ -12,7 +12,7 @@ This repository contains the pre-trained models, metadata, performance metrics, 
     *   **Usage:** Use the specific **SeqIDs** in this file to map your proteomic features to the model coefficients accurately. 
 *   **`Soma_clock_coefficients_min.xlsx`**
     *   **Description:** Extracted from our Supplementary Tables, this file contains the pre-trained protein weights (coefficients) and intercepts for each of the cell-type-specific aging clocks. Each row corresponds to a specific cell-type model.
-*   **`Soma_cell_type_performance_results_.xlsx`**
+*   **`Soma_cell_type_performance_results.xlsx`**
     *   **Description:** Summary performance table evaluating the Pearson correlation between predicted and actual chronological ages across our Healthy, Disease, and SADRC validation groups (SADRC is an external GNPC sub-cohort).
     *   **Usage:** The table is sorted in descending order of correlation magnitude within the healthy cohort. The total number of feature inputs for each clock is listed in the `n_proteins` column.
 
