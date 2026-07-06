@@ -13,7 +13,7 @@ This repository contains the pre-trained models, metadata, performance metrics, 
 * **`olink_clock_coefficients_min.xlsx`**
     * **Description:** Extracted from the study's Supplementary Tables, this file contains the pre-trained model weights (coefficients) and intercepts for all cell-type and lineage-type aging clocks. Each row corresponds to a specific model, and columns represent individual proteins or the model intercept.
 * **`cell_type_performance_results_final.xlsx`**
-    * **Description:** Provides detailed training and test performance metrics—including Pearson correlation ($r$), Root Mean Squared Error (RMSE), and Mean Absolute Error (MAE)—evaluated within our UK Biobank cohort. 
+    * **Description:** Provides detailed training and test performance metrics—including Pearson correlation ($r$), Root Mean Squared Error (RMSE), and Mean Absolute Error (MAE)—evaluated within our UK Biobank cohort. Models were trained and tested entirely within the UK Biobank. 
     * **Usage:** Use the `Source` column to filter between cell-type or lineage-type models and to prioritize the most performant cell lines for your downstream analyses.
 
 ### Scripts & Visualization
