@@ -1,6 +1,6 @@
 ## Cellular Aging Signatures in the Plasma Proteome Predict Human Health
 
-A computational framework for estimating cell-type-specific biological age using plasma proteomics. Preprint article: https://www.biorxiv.org/content/10.64898/2026.02.10.704909v1
+A computational framework for estimating cell-type-specific biological age using plasma proteomics. Nature Medicine article: https://www.nature.com/articles/s41591-026-04446-y
 
 ## Overview
 
