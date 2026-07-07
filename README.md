@@ -24,6 +24,7 @@ cellage/
 ├── model/           # Cell-type-specific aging model development
 └── analysis/        # Downstream analyses using the models
 ```
+We have also provided bundled guidance in subfolder 'Apply Models' for applying both Olink and SomaScan-type models, including detailed instructions, the model coefficients, performance, proteomics metadata, among other essential files. 
 
 ## License
 
